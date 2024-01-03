@@ -164,7 +164,7 @@
     z-index: 100;
     display: flex;
     overflow: scroll;
-    color: #00000;
+    color: #0000;
     /* display: none; */
 }
 .mobileMenuShow{
