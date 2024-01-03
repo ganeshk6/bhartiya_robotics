@@ -20,4 +20,10 @@ export const navLinkData = [
     link: "about",
   },
 ];
+export const ImageLink = [
+  {
+    _id: 1001,
+    link: "homeSite",
+  },
+];
 

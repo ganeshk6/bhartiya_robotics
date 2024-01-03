@@ -24,14 +24,13 @@ const Header = () => {
   });
   return (
     <div className={fix ? styles.fixedNavbar : styles.Header}>
-      {/* <div className={styles.headerNavbar}> */}
-      {/* {ImageLink.map(({ _id, link }) => ( */}
+      {ImageLink.map(({ _id, link }) => (
         <div className={styles.Logo}>
-          {/* <Link to={link}> */}
+          <Link to={link}>
             <Image src={logo} height={70} width={100} />
-          {/* </Link> */}
+          </Link>
         </div>
-      {/* ))} */}
+       ))} 
       <div className={styles.HeaderLink}>
         <ul>
           {navLinkData.map(({ _id, title, link }) => (
@@ -90,7 +89,7 @@ const Header = () => {
                   <li key={_id}>
                     <Link
                       to={link}
-                      activeClass={styles.activeNav}
+                      onClick={() => setShowMenu(false)}
                       smooth={true}
                       duration={500}
                       offset={-70}
@@ -106,7 +105,6 @@ const Header = () => {
         </div>
       )}
     </div>
-    //  </div>
   );
 };
 
