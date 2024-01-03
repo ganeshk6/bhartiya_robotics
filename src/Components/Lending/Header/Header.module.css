@@ -158,13 +158,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #9f8a8a;
     padding: 2rem;
     scroll-behavior: smooth;
     z-index: 100;
     display: flex;
     overflow: scroll;
-    color: #0000;
 }
 .mobileMenuShow{
     flex-direction: column;
