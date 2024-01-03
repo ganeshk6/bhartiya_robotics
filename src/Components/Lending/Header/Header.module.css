@@ -165,7 +165,6 @@
     display: flex;
     overflow: scroll;
     color: #0000;
-    /* display: none; */
 }
 .mobileMenuShow{
     flex-direction: column;
