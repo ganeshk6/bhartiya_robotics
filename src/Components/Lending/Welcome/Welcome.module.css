@@ -1,0 +1,89 @@
+/* @import url(.././assets/images/banner.png); */
+.homeBanner{
+    position: relative;
+    background-image: url(.././assets/images/welcome.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.homeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 0.5rem;
+    padding: 0rem 4rem;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.welcome{
+    font-weight: bold;
+    font-size: 100px;
+    color: #000000;
+}
+.getStart{
+    margin-top: 1rem;
+}
+.getStart button{
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width:1150px) {
+    .homeContent{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .homeContent{
+        width: 70%;
+    }
+}
+@media screen and (max-width:850px) {
+    .homeBanner{
+        background-size: cover;
+        height: 100vh;
+    }
+    .homeContent{
+        width: 75%;
+        padding: 1rem;
+    }
+    .welcome{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:650px) {
+    .homeBanner{
+        width: 100vw;
+        background-size: cover;
+    }
+    .homeContent{
+        width: 100%;
+        padding: 0 1rem;
+        /* color: #fff; */
+    }
+}
+@media screen and (max-width:450px) {
+    .homeBanner{
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:400px) {
+    .homeBanner{
+        width: 100vw;
+        height: 65vh;
+        background-size: cover;
+    }
+}

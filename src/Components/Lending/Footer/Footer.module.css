@@ -1,0 +1,79 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    color: #fff;
+    padding: 3rem 5rem;
+}
+
+.footerAddress {
+    line-height: 2.5rem;
+    cursor: pointer;
+    /* font-size: 20px; */
+}
+
+.footerAddress p span {
+    margin-right: 1rem;
+}
+
+.footerContactDetails {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.footerContact {
+    padding: 1rem;
+    border-radius: 10px;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 1rem;
+}
+
+.footerInput input {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 30px;
+}
+.footerButton button{
+    padding: 0.5rem 0.9rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: #000000;
+    color: #fff;
+}
+@media screen and (max-width: 1100px) {
+    .Footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .Footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: start;
+        column-gap: 0rem;
+        row-gap: 3rem;
+        padding: 4rem 1rem;
+        font-size: 20px;
+    }
+
+    .FooterLink ul {
+        display: grid;
+        float: 0;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .Footer {
+        padding: 4rem 1rem;
+    }
+}

@@ -1,0 +1,136 @@
+/* @import url(.././assets/images/banner.png); */
+.homeBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.homeContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0rem 4rem;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.homePhoto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.resHomePhoto{
+    display: none;
+}
+.homeImage{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.resImage2{
+    display: none;
+}
+@media screen and (max-width:1150px) {
+    
+}
+
+@media screen and (max-width:1000px) {
+    .homeContent {
+        width: 100%;
+        padding: 0px 1rem;
+    }
+    .homeBanner{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .homeBanner {
+        padding: 1rem;
+        width: 100%;
+    }
+    .homeImage{
+        display: none;
+    }
+    .resHomePhoto{
+        display: contents;
+        display: grid;
+        gap: 1rem;
+        align-self: center;
+        justify-self: center;
+    }
+    .resPhotoHome2{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .resImage{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .homeBanner {
+        display: grid;
+        height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .resHomePhoto{
+        display: none;
+    }
+    .resImage2{
+        display: contents;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .homeBanner {
+        width: 100vw;
+        height: 150vh;
+        background-size: cover;
+    }
+    .resImage2{
+        display: contents;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        gap: 1rem;
+    }
+    .resImage23{
+        height: 200px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    .homeBanner{
+        height: 120vh;
+    }
+}
+@media screen and (max-width:391px) {
+    .homeBanner{
+        height: 120vh;
+    }
+}
+@media screen and (max-width:376px) {
+    .homeBanner{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:290px) {
+    .homeBanner{
+        height: 180vh;
+    }
+}

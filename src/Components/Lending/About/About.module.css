@@ -1,0 +1,94 @@
+.About {
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    padding: 2rem 1rem;
+    /* background-image: url(../assets/images/bgImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    gap: 2rem;
+}
+
+.firstcard {
+    color: rgba(128, 128, 128, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+.firstCardImage1{
+    background-color: rgba(255, 251, 245, 1);
+}
+.Image1{
+    width: 100%;
+}
+.secondCard{
+    color: rgba(128, 128, 128, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+}
+.firstCardImage2{
+    background-color: rgba(255, 251, 245, 1);
+}
+.aboutVideo {
+    background-color: rgb(158, 158, 165);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 40%;
+    height: 100vh;
+}
+.cardMenu{
+    width: 60%;
+    display: flex;
+    gap: 2rem;
+}
+@media screen and (max-width:850px) {
+    .About{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        height: 200vh;
+    }
+    .cardMenu{
+        width: 100%;
+    }
+    .aboutVideo{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .cardMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 100vh;
+    }
+    .About{
+        gap: 1rem;
+        height: 200ch;
+    }
+}
+@media screen and (max-width:500px) {
+    .About{
+        height: 200vh;
+    }
+}
+@media screen and (max-width:450px) {
+    .About{
+        height: 220vh;
+    }
+}
+@media screen and (max-width:400px) {
+    .About{
+        height: 230vh;
+    }
+}
+@media screen and (max-width:376px) {
+    .About{
+        height: 255vh;
+    }
+}
